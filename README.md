@@ -1,34 +1,30 @@
-# Shareable NFT Access and Dynamics NFT
-### Setup
+This is a simple NFT Access example built on top of Next.js 14
+## Project Walkthrough
+This is a simple NFT Access example built on top of Next.js 14 using some of @mintbase-js packages.
+
+Project Description: Fractionalize an NFT and grant
+
+access/ownership to different sub-accounts
+
+without transferring the actual NFT.
+
+NFT Owner:
+
+1. Mint the NFT.
+
+2. Share access with specific addresses.
+
+Access NFT:
+
+3. Update the NFT metadata.
+
+4. Send the NFT to another address.
+
+—----------------------------------
 
 
-In the `minter/src/config/setup.ts` file, we define several key configurations for interacting with the Mintbase platform. This setup is crucial for ensuring that our application communicates correctly with Mintbase smart contracts.
+Live Demo: [Live demo link](https://nft-mintbase.vercel.app/)
 
-## ENV Variables
+Project Video Demo: [Live demo link](https://youtu.be/LIyTwqqpw3E?si=eIZvfPIP6xD7AzjR )
 
-To customize these configurations for different environments, you can set the following environment variables in your `.env` file:
 
-`NOTE: the env variables need to have the NEXT_PUBLIC_ on the variable name due to be available for the browser to process`
-
-- `NEXT_PUBLIC_PROXY_CONTRACT_ADDRESS`: Your proxy contract address on Mintbase.
-- `NEXT_PUBLIC_MINT_CONTRACT_ADDRESS`: Your mint contract address on Mintbase.
-- `NEXT_PUBLIC_NETWORK`: The network you want to interact with (`"testnet"` or `"mainnet"`).
-
-## Run Project
-after that you can run
-```
-pnpm install
-```
-and
-
-```
-pnpm dev
-```
-
-## Extending
-
-This project is setup using Next.js + @mintbase/js + shadcn ui + react hook form
-You can use this project as a reference to build your own, and use or remove any library you think it would suit your needs.
-
-![Alt text](relative%20shareable-nft-access-dynamics-nft/images/Login.png?raw=true "Login")
-![Alt text](relative%20shareable-nft-access-dynamics-nft/images/Dashboard.png?raw=true "Dashboard")
