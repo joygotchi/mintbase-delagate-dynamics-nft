@@ -1,20 +1,28 @@
-# Shareable NFT Access and Dynamics NFT
-## Run Project
-after that you can run
-```
-pnpm install
-```
-and
+This is a simple NFT Access example built on top of Next.js 14
+## Project Walkthrough
+This is a simple NFT Access example built on top of Next.js 14 using some of @mintbase-js packages.
 
-```
-pnpm dev
-```
+Project Description: Fractionalize an NFT and grant
 
-## Extending
+access/ownership to different sub-accounts
 
-This project is setup using Next.js + @mintbase/js + shadcn ui + react hook form
-You can use this project as a reference to build your own, and use or remove any library you think it would suit your needs.
+without transferring the actual NFT.
 
-## Dashboard 
+NFT Owner:
 
-![image](https://github.com/louisdevzz/mintbase-nft/assets/112561517/9246856d-a6ee-47c4-ae46-6792124dab21)
+1. Mint the NFT.
+
+2. Share access with specific addresses.
+
+Access NFT:
+
+3. Update the NFT metadata.
+
+4. Send the NFT to another address.
+
+—----------------------------------
+
+
+Live Demo: [Live demo link](https://nft-mintbase.vercel.app/)
+
+Project Video Demo: [Live demo link](https://youtu.be/LIyTwqqpw3E?si=eIZvfPIP6xD7AzjR )
